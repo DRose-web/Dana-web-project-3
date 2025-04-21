@@ -1,0 +1,139 @@
+/* when changing the color of something use color contrast checker by webAIM for WCAG AA and WCAG AAA */
+
+/* I chose a Triad colour scheme, because the green shows a connection to the land that we are on. Purple is a deep and calm colour that
+when used with other colours can either stand out and catch the eye or blend in and stabelize the other colours. The orangey brown I 
+chose is technically the product of the two previously stated colours, and can help blend the two to make a nice balance between them 
+than them fighting against eachother it also utilizes the same colour pallette as the background so with the element inside it also makes
+the blend cleaner and nicer while still keeping a good contrast. I chose beige as the background colour because it is a soft and warm 
+neutral with. The extra touch of colour can help the look of the website while also not making it generic or hard to look at due to the 
+harsh brightness of the pure white screen. The black is also a neutral color the stands out in almost all other colours and allows for 
+easy outlining and clear annotation of the heading. White may occasionally be used amongst the website to highlight or make a part pop */
+
+body{
+    /*this section is the CSS for the body which is anytning inside of the body tag. this is the defualt for when anything else for 
+    for the tags is not input to the internal CSS which is something that is not consistant throughout all pages. */
+    background-color:#ffebcd;
+    /* this makes the background color a beige on all webpages*/
+    color:#063806;
+    /* this makes the default colour of the text i put on the body as a green rather than black */ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* this makes the font throughout the website the same. first option is georgia which is a serif font.
+    the rest of the fonts are there for if the browser does not support this font and it will just go down the line.*/
+    font-size:1.8rem;
+    /* this is the default font size for evrything that does not get specified somewhere in the CSS lines of coding. 1.8 rem is about 28-29 pixels */
+    letter-spacing:1px ;
+    /*this makes the letter spacing bigger so theres more negative space which increases readablility and makes the text feel a bit less crowded */ 
+    word-spacing:normal;
+    /* this spaces the words farther appart so that it is easier to read and nicer looking and focusable */ 
+    line-height:50px;
+    /* this makes the spacing between each of the lines larger by 50 pixels  */
+}
+li{
+    /* this section of my CSS affets anything that is inside of the li / list item tag ex.nav links */
+    display:inline-block;
+    /*this makes it so that the list items show up as a inline element which makes the nav bar at the top look how it is rather than the nav
+    bar being at the side of the webpage. basically, this makes the element appear inline rather than block hence inine block. */ 
+    font-size:1.875rem;
+    /* this makes the font size slightly larger than the default which is 30px whereas the default is about 28 pixels  */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* same as the last one this sets the specific font i want my website to use and web browsers may not support my first option so I put a few options */
+    font-style: italic;
+    /* I wanted the nav bar links to look much more different than the rest of the website so i used the italics to show that difference
+    plus i like how it looks and normal paragraphs could be hard to read so I made a different way to add the fancy font in */
+}
+a{
+    /* this section affects anything in the a tag */
+    color:black;
+    /* I wanted the links on most of my websites to be black aside from one where I was worried it would blend in too much. it also looks
+    nice and doesnt break the color too much */
+}
+p{
+    /* this section affects anything in the p / paragraph tag */
+    font-size: 1.125rem;
+    /* the <p> tag is supposed to be the smallest type of text though I did not use it often in my website as I wanted the text to stand 
+    out more and be more engaging and easy to read for kids so I made this font 18px which is also in the range of the reccommended size for 
+    the paragraph tag */
+}
+h1{
+    /* the following six sections of CSS affect my headings and goes in order from h1 to h6 */
+    text-align:center;
+    /* I wanted the text to be in the very front center of the page as this is the most impportant heading that represents the 
+    entire page and what it is about */
+    font-size:3.625rem;
+    /* the <h1> tag is the largest heading in the heirarchy and so, I wanted the overall font size of the page to be large so i made this 
+    heading 58px*/
+    color:#000000;
+    /* this is the only heading that I made black as it is the most important and largest heading for a reason. The black makes the heading 
+    bold and punctual without looking out of place or bleanding in with the other stuff */
+}
+h2{
+    text-align:center;
+    /* same as the h1 tag I wanted the text to be aligned in the center because it makes the information look more organised like 
+    a propper text rather than to the left or right like i took it right out a notebook */ 
+    font-size:3.125rem;
+    /* To make sure the heirarchy is visible in my website I made the h2 tags font size 8 pixels smaller so 50px */
+}
+h3{
+    text-align: center;
+    /* the same as the other heading applies to the rest and I belive my point is clear thank you :) */
+    font-size:2.625rem;
+    /* same as the other headings aplly to the rest and now the font size is 42px */
+}
+h4{
+    text-align:center;
+    /* the same as the other heading applies to the rest and I belive my point is clear thank you :) */
+    font-size:2.125rem;
+    /* same as the other headings aplly to the rest and now the font size is 34px */
+}
+h5{
+    text-align:center;
+    /* the same as the other heading applies to the rest and I belive my point is clear thank you :) */
+    font-size:1.625rem;
+    /* same as the other headings aplly to the rest and now the font size is 26px*/
+}
+h6{
+    text-align:center;
+    /* the same as the other heading applies to the rest and I belive my point is clear thank you :) */
+    font-size:1.325rem;
+    /* same as the other headings aplly to the rest and now the font size is about 21px */
+}
+/* this concludes the headings section */
+.nav-link{
+/*everything in this section affects my nav bar */
+    border-style:solid;
+    /* this give my border a soild outline */
+    border-width:5px;
+    /* this shows how thick the border should be: 5px */
+    border-color:black;
+    /*I wanted the border to be black because it provides good contrast and outlines the full nav link button */
+    padding:10px;
+    /* this makes the border get set off of the initial text it is bordering by 10 pixels*/
+    background-color:#4b0158;
+    /* I made the background colour of the nav bar links purpe because it looks nice and catches the eye */
+    text-decoration:none;
+    /* this takes away the line under the text of the link so it looks more aesthetic */
+    margin-left: 35px;
+    /* this determines how much extra space there is on the side of the link */
+    margin-right: 35px;
+    /* this determines how much extra space there is on the side of the link */
+    color:#ffffff;
+    /* this makes the colour of the text white */
+    letter-spacing:normal;
+    /*when i changed this portion in my CSS for my body it made my nav bar look weird so, I just defined the fact that I want the default
+    spacing to be the normal value */
+    word-spacing:normal;
+    /*when i changed this portion in my CSS for my body it made my nav bar look weird so, I just defined the fact that I want the default
+    spacing to be the normal value */
+    line-height:normal;
+    /*when i changed this portion in my CSS for my body it made my nav bar look weird so, I just defined the fact that I want the default
+    spacing to be the normal value */
+}
+#footer{
+    /* this section affect the footer at the bottom of my website */
+    background-color:#000000;
+    /* this makes the background of the footer black and seperates it from the rest of the website */
+    color:#ffffff;
+    /* this makes the text colour white which allows for easy visability */
+    border:solid, black, 4px;
+    /* this defines the border the same way as the others but it is shortened to one line of code so border is solid black and 4 pixels wide */
+}

@@ -1,0 +1,139 @@
+<!--Name: Dana
+    Class: web dev 10S
+    Teacher: Ashley Hoitink
+    School: Pembina Trails Colligate
+    Date last modified: April 15, 2025-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treaty One for grades 1-3</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <style>
+        /* id= this makes the text brown and bold */
+        #land-ackgnowledgement-exp{
+            color:#724403;
+            font-weight: bold;
+        }
+        /* id= I used this to make it display it as a block element because i thought it looks neather it also changes the colour to purple */
+        #inline-iframe{
+            display: inline-block;
+            color:#4b0158;
+        }
+        /* class= this changes the text colour to purple */
+        .what-is-treaty{
+            color:#5F016F;
+        }
+        /* class= I used spans here to make the peices of text different so that it stands out by making it green, italic, and a snas serif
+        font rather than the usual serif i was using which definetly made it pop out */
+        .span-promise{
+            color:#0d4f04;
+            font-style: italic;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* I decided it was best to change the size to a slightly different font so it looks better and is simpler to read*/
+        .land-akg{
+            font-size:1.25rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- this is the nav section which is defined by the semantic tag <nav> and in here i linked all my webpages together and gave it 
+        a tabindex for accessablitiy. I also gave it a class to allow for easy and seperate stylization that is done in the external CSS as it 
+        stays consistent through the whole website. -->
+    <nav>
+        <ul> 
+            <li class="nav-link"> <a tabindex="1" class="nav-link" href="index.html"> Introduction to treaty one </a></li>
+            <li class="nav-link"> <a tabindex="2" class="nav-link" href="treaty-one-outcomes-and-land.html">  Treaty one </a></li>
+            <li class="nav-link"> <a tabindex="3" class="nav-link" href="treaty-one-quiz.html"> Quiz about treaty one </a></li>
+        </ul>
+    </nav>
+    <br/>
+    <br/>
+    <!--this is my heading henc the semantic tag <header>-->
+    <header>
+        <h1 tabindex="4" > Introduction To Treaty One </h1>
+    </header>
+    <br/>
+    <br/>
+    <!-- this is my firat section that i use to explain the land ackgnoweldgement that is said everywhere I also showed an image of 
+    the water path that is being spoken about in the ackgnowelgement -->
+    <section>
+        <h2 tabindex="5" id="land-colour"> Land Ackgnowledgement</h2>
+        <h3 tabindex="6"> Something that you may have heard alot in school is the land ackgnowledgement: </h3>
+        <p class="land-akg" tabindex="7"> We acknowledge we are on the lands of Turtle Island where Indigenous Peoples have lived since time began. These are
+        the ancestral lands of the Anishinaabe, Ininew, and Dakota Nations as well as the traditional trade and travel routes
+        of the Anishininew, Dene, and Inuit. We also acknowledge we are on Treaty One territory and the homeland of the 
+        Red River Métis. Pembina Trails School Division is committed to working together in partnership with Indigenous 
+        communities in a spirit of reconciliation. </p> 
+        <p class="land-akg" tabindex="8">The water we drink comes from Shoal Lake 40 First Nation and our hydro is sourced from numerous First Nations
+        here in Manitoba. We are thankful for these resources as a community. </p>
+        <a tabindex="9" href="https://www.pembinatrails.ca/ptcollegiate/page/14520/land-acknowledgement" target="_blank">Pembina Trails School Division Land Ackgnowledgement</a>
+        <div id="land-ackgnowledgement-exp"> 
+            <h2 tabindex="10"> What does this mean? </h2>
+            <p class="land-akg" id="only-exp" tabindex="11"> This means that they understand and appreciate that the land we are on right now is the original land of the Indigenous
+            Peoples of Manitoba. They are commited to working with the Indigenous Peoples to understand the past wrongs done to them by Canada.
+            Then, they explain that our water that we drink comes from Shol Lake 40 First Nations which is a Indigenous reserve. They express 
+            their thanks to the other First Nations Reserves for other things they give us.</p>
+            <figure>
+                <img tabindex="12" src="images/shoal-lake-40-first-nation-map-and-infographic.avif" alt="image showing the passsage of freshwater from Shoal Lake
+                40 First Nations reerve to Winnipeg" width="75%">
+                <br/>
+                <figcaption>
+                    <a tabindex="13" href="https://www.cbc.ca/radio/dnto/shoal-lake-40-portrait-of-a-resilient-community-1.3364625/map-a-guide-to-shoal-lake-40-first-nation-1.3369621"
+                    target="_blank">CBC image of the path of freshwater from Shoal Lake 40 First Nations to Winnipeg</a>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <br/>
+    <br/>
+    <!-- this is the main section with the more important informations like explaining what a treaty actually is and I also attatched a video
+    and image of a treaty note as visual stimulatns-->
+    <main>
+        <h2 tabindex="14" class="what-is-treaty"> What is a Treaty?</h2>
+        <h6 tabindex="15" class="what-is-treaty"> A treaty is an <span class="span-promise">agreement or promise</span> between two countries or nations and usually written and signed by all nations involved. Whatever
+        promises that are included in the treaty signed by the leader <span class="span-promise">need to be kept.</span></h6>
+        <figure>
+            <img tabindex="16" src="images/paper-of-treaty-one.webp" alt="Image of treaty one paper written in cursive handwriting"width="75%" height="500">
+            <br/>
+            <figcaption>
+                <a tabindex="17" href="https://www.winnipegfreepress.com/featured/2021/07/30/treaty-1-contentious-from-day-1" target="_blank">Winnipeg free press treaty one paper</a>
+            </figcaption>
+        </figure>
+        <br/>
+        <br/>
+        <figure>
+            <iframe tabindex="18" width="560" height="315" src="https://www.youtube.com/embed/SVaK9rAV32A?si=p4kpywbTL4iA1O35" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption>
+                <a tabindex="18" href="https://youtu.be/SVaK9rAV32A?si=JvbvXNVS9eWXkrPs" target="_blank"> link to the same youtube video</a>
+            </figcaption>
+        </figure>
+        <h5 tabindex="19" id="inline-iframe"> A short video to help you understand Indigenous Treaties </h5>
+        <br/>
+        <br/>
+    </main>
+    <!-- this is my other section that explains what nations where appart of the treaty 1 signing in simplest terms as seen throughout the website-->
+    <section>
+        <div id="nations-in-treaty-one">
+            <h2 tabindex="20"> What nations or groups were a part of Treaty One? </h2>
+            <h5 tabindex="21"> Some communities that are a part of treaty one are: Peguis First Nation, Sagkeeng First Nation, Brokenhead Ojibway Nation,
+            Roseau River Anishinaabe First Nation, Long Plain First Nation, Sandy Bay Ojibway First Nation, and Swan Lake First Nation, 
+            and the crown which is basically the Canadian high authority such as Parlement. </h5>
+            <a tabindex="22" id="nations-treaty-one-source" href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2 " target="_blank"> The Canadian Encylcopedia treaties 1 and 2</a>
+            <a tabindex="23" id="nations-treaty-one-source" href="https://www.canada.ca/en/parks-canada/news/2021/08/treaty-one-nation-and-government-of-canada-commemorate-150th-anniversary-of-treaty-no-1.html"
+            target="_blank"> Government of Canada treaty 1</a>
+        </div>
+    </section>
+    <br/>
+    <br/>
+    <!-- this is the footer which contains a copywright notice and a fake phone number for people to contact us-->
+    <footer>
+        <div id="footer"> <h6 tabindex="24"> contact us at 204-555-5555 &nbsp; &nbsp; mantell canadian educational site &copy;</h6></div>
+    </footer>
+</body>
+</html>

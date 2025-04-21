@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treaty One for grades 1-3</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <style>
+        .left{
+            text-align:left;
+            color:#4b0158;
+        }
+    </style>
+</head>
+<body>
+    <!-- this is the nav section which is defined by the semantic tag <nav> and in here i linked all my webpages together and gave it 
+        a tabindex for accessablitiy. I also gave it a class to allow for easy and seperate stylization that is done in the external CSS as it 
+        stays consistent through the whole website. -->
+    <nav>
+        <ul> 
+            <li class="nav-link"> <a tabindex="1" class="nav-link" href="index.html"> Introduction to treaty one </a></li>
+            <li class="nav-link"> <a tabindex="2" class="nav-link" href="treaty-one-outcomes-and-land.html">  Treaty one </a></li>
+            <li class="nav-link"> <a tabindex="3" class="nav-link" href="treaty-one-quiz.html"> Quiz about treaty one </a></li>
+        </ul>
+    </nav>
+    <br/>
+    <br/>
+    <!-- this is my header -->
+    <header>
+        <h1 tabindex="4"> Quiz About Treaty One </h1>
+    </header>
+    <br/>
+    <br/>
+    <!-- I only have one peice of information on this part of my website
+    which is the form I use to collect dat on how much people actually learned-->
+    <!--here i used a radio, select option, checkbox, and sumbit value in the form. I also used a feildset mainly for aesthetics but also
+    to contain all of the form elements and differenciate it from the page.-->
+    <main>
+        <form name="knowledge-test-form" id="quiz-form" method="get"> 
+            <h4 tabindex="5"> This form is for us to see how much you learned </h4>
+            <fieldset>
+                <legend tabindex="6"> answer these questions as well as you can without gong back to look </legend>
+                <br/>
+                <label tabindex="7" for="Grade">Grade:  *Required* </label>
+                <br/>
+                <p tabindex="8" class="left">(select your grade)</p>
+                <select name="grade select" id="Grade" required>
+                    <option value disabled selected > select your grade </option>
+                    <option value="grade 1"> grade 1</option>
+                    <option value="grade 2"> grade 2</option>
+                    <option value="grade 3"> grade 3</option>
+                    <option value="grade 4"> grade 4</option>
+                    <!-- I added more grades than what age group the website is intended for as sometimes people need a more quick and 
+                    simplified information that they can still learn from plus that could very much retract audience -->
+                    <option value="grade 5"> grade 5</option>
+                    <option value="grade 6"> grade 6</option>
+                    <option value="grade 7"> grade 7</option>
+                    <option value="grade 8"> grade 8</option>
+                    <option value="grade 9"> grade 9</option>
+                    <option value="grade 10"> grade 10</option>
+                    <option value="grade 11"> grade 11</option>
+                    <option value="grade 12"> grade 12</option>
+                </select>
+                <br/>
+                <br/>
+                <!-- put tab index on labels of form only not input -->
+                <h4 tabindex="9" class="left"> What is a land ackgnowledgement? </h4>
+                <p tabindex="10" class="left"> (select one option that you think is correct)</p>
+                <label tabindex="11" for="sad song"> A sad song </label>
+                <input type="radio" id="sad song" name="land akg">
+                <br/>
+                <label tabindex="12" for="paragraph"> a paragraph stating how muc they love the water and land </label>
+                <input type="radio" id="paragraph" name="land akg">
+                <br/>
+                <label tabindex="13" for="statements"> a statement of gratitude and ackgnowledgement toward the Indigenous Peoples of the land</label>
+                <input type="radio" id="statements" name="land akg">
+                <br/>
+                <label tabindex="14" for="rhyme"> a cool ryme to help us remember where the land and water is from </label>
+                <input type="radio" id="rhyme" name="land akg">
+                <br/>
+                <br/>
+                <h4 tabindex="15" class="left"> what makes treaty one different? </h4>
+                <p tabindex="16" class="left"> (select all that are correct) </p>
+                <label tabindex="17" for="only number">it is the only treaty with a number </label>
+                <input type="checkbox" id="only number" name="difference">
+                <br/>
+                <label tabindex="18" for="$3"> It only has a $3 annuity </label>
+                <input type="checkbox" id="$3" name="difference">
+                <br/>
+                <label tabindex="19" for="less"> It has less promises than the other ones </label>
+                <input type="checkbox" id="less" name="difference">
+                <br/>
+                <label tabindex="20" for="more"> It has more promises than the other ones </label>
+                <input type="checkbox" id="more" name="difference">
+                <br/>
+                <label tabindex="21" for="all"> all of the above </label>
+                <input type="checkbox" id="all" name="difference">
+                <br/>
+                <br/>
+                <h4 tabindex="22"> Thank you!</h4>
+            </fieldset>
+            <input value="submit" type="submit">
+        </form>
+    <br/>
+    <br/>
+    <!-- this is the footer that contains contact and copywright information-->
+    <footer>
+        <div id="footer"> <h6 tabindex="23"> contact us at 204-555-5555 &nbsp; &nbsp; mantell canadian educational site &copy;</h6></div>
+    </footer>
+</body>
+</html>

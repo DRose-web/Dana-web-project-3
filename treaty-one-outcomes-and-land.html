@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treaty One for grades 1-3</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <style>
+        /* I added a margin of space for neatness and i changed the colour of the links because I thought the black blended in tooo much */ 
+        .Treaty-maps-block{
+            margin:25px;
+            color:rgb(82, 82, 255);
+        }
+        /* I added a border to the div the i used for this certain section that is black solid and 10 pixels thick. I made the background 
+        colour brown and the foreground colour a yellowish white beige color */
+        #mainly-maps{
+            border: black, solid, 10px;
+            background-color:#632e00;
+            color:#FFC58F; 
+        }
+        /* I wanted the stuff to display as inline rather than a block which also fills the extra empty space */
+        .spacing-for-treaty{
+            display: inline;
+        }
+        /* once again i changed the link colour to blue so it is clearly defined as a link, I made the font size 25px so it is bigger and 
+        easier to read for littles. i made the font style generic, smooth, and clean for better aesthetic aswell. */
+        #treaty-promises-link{
+            color:rgb(82, 82, 255);
+            font-size:1.5625rem;
+            font-style:normal;
+        }
+        /* here i just changed the link color to blue to match with the rest of the page*/
+        #treaty-canada{
+            color:rgb(82, 82, 255);
+        }
+    </style>
+</head>
+<body>
+    <!-- this is the nav section which is defined by the semantic tag <nav> and in here i linked all my webpages together and gave it 
+        a tabindex for accessablitiy. I also gave it a class to allow for easy and seperate stylization that is done in the external CSS as it 
+        stays consistent through the whole website. -->
+    <nav>
+        <ul> 
+            <li class="nav-link"> <a tabindex="1" class="nav-link" href="index.html"> Introduction to treaty one </a></li>
+            <li class="nav-link"> <a tabindex="2" class="nav-link" href="treaty-one-outcomes-and-land.html">  Treaty one </a></li>
+            <li class="nav-link"> <a tabindex="3" class="nav-link" href="treaty-one-quiz.html"> Quiz about treaty one </a></li>
+        </ul>
+    </nav>
+    <br/>
+    <br/>
+    <!-- this is my heading for the webpage-->
+    <header>
+    <h1 tabindex="4"> Treaty One </h1>
+    </header>
+    <!-- this is my main section of information which shows the maps and where the treatie occur which i believe is the most important 
+    information and is the purpose of this website. I used a div to style the section and make a border with a different backgound and text colour-->
+    <main>
+        <div id="mainly-maps">
+            <h2 tabindex="5"> When and where was Treaty One signed? </h2>
+            <h6 tabindex="6"> Treaty one was signed in Lower Fort Garry, Manitoba on August 3rd, 1871. Below this is an image of Lower Fort Garry. </h6>
+            <a tabindex="7" class="Treaty-maps-block" href="https://www.rcaanc-cirnac.gc.ca/DAM/DAM-CIRNAC-RCAANC/DAM-TAG/STAGING/texte-text/tre1-2_1100100028661_eng.pdf "
+            target="_blank"> Treaty One and Treaty Two research reports </a>
+            <br/>
+            <figure>
+                <img tabindex="8"src="images/lower-fort-garry-image.jpg" alt="picture of Lower Fort Garry from the air" width="75%">
+                <figcaption>
+                    <a tabindex="9" class="Treaty-maps-block" href="https://www.mhs.mb.ca/docs/sites/lowerfortgarry.shtml " target="_blank"> Lower Fort Garry in Manitoba </a>
+                </figcaption>
+                </figure>
+            <h3 tabindex="10"> Here are some other images that may help you understand the land. On the left is an image of Treaties 1-5 that are located in Manitoba
+            with Treaty One circled. On the right you can see an image of all of the numbered Treaties (Treaty 1-11) in Canada, Treaty One is in dark blue.</h3>
+            <figure>
+                <img tabindex="11" src="images/map-of-treaties-in-manitoba-treatie-on-circle.jpg" alt="Image of Manitoba and its 5 treaties" width="47%">
+                <img tabindex="12" src="images/Map-of-canadian-numbered-treaties.png" alt="Image of Canada and all 11 of the numbered treaties with color" width="47%">
+                <figcaption>
+                    <a tabindex="13" class="Treaty-maps-block" href="https://www.sac-isc.gc.ca/eng/1100100020576/1616073943706 " target="_blank"> Government of Canada Manitoban Treaty Map </a>
+                    <a tabindex="14" class="Treaty-maps-block" href="https://www.wikiwand.com/en/articles/Numbered_treaties" target="_blank"> Wikiwand map of Canadian numbered treaties </a>
+                </figcaption>
+            </figure>
+        </div>
+    </main>
+    <br/>
+    <br/>
+    <!-- in this section I explain the information on what is included in the treaty via list-->
+    <section>
+        <h2 tabindex="15"> What were some things that were promised in the Treaty? </h2>
+        <br/>
+        <h3 tabindex="16"> Some promises made were:</h3>
+        <ul class="spacing-for-treaty">
+            <li class="spacing-for-treaty"> <h5 tabindex="17"> It was promised that each community of Indigenous Peoples (band) would get a reserve (a promised peice of land
+            that belongs to the Indigenous Peoples, it is where many live) large enough to provide 160 acres of land for every family of 5. Families 
+            that were smaller got less land and larger families got more land.
+            </h5> </li>
+            <li class="spacing-for-treaty"> <h5 tabindex="18"> The band of Yellow Quill got an extra 25 square miles of land that was laid out around the reserve.</h5></li>
+            <li class="spacing-for-treaty"> <h5 tabindex="19"> Indigenous Peoples were not allowed to use alcohol on the reserve.</h5></li>
+            <li class="spacing-for-treaty"> <h5 tabindex="20"> The Canadian Government agreed to keep a school running on the reserves if the Indigenous Peoples of that
+            reserve wanted.</h5></li>
+            <li class="spacing-for-treaty"> <h5 tabindex="21"> Each Indigenous Persons recieved a gratuity which is like a gift of $3. They also recieved $3 worth of 
+            useful stuff regularily unless the persons chooses to recieve it in cash (money).</h5></li>
+            <li> <a id="treaty-promises-link" tabindex="22" href="https://www.rcaanc-cirnac.gc.ca/DAM/DAM-CIRNAC-RCAANC/DAM-TAG/STAGING/texte-text/tre1-2_1100100028661_eng.pdf " target="_blank"> Treaty 1 information pdf
+            </a></li>
+        </ul>
+    </section>
+    <br/>
+    <br/>
+    <!-- in this section I explained that what makes treaty one different and what the treaty looks like in the modern world -->
+    <section>
+        <div id="diffirent-treaty"> 
+            <h2 tabindex="23"> What is the difference between Treaty one and the rest? How does it look like today?</h2>
+            <br/>
+            <h3 tabindex="24"> Treaty one stands out from the other treaties because of this </h3>
+            <ol>
+                <li> <h5 tabindex="25"> Treaty One was the first Treaty numbered treaty to be made. </h5></li>
+                <li> <h5 tabindex="26"> This Treaty has much less promises in it than the ones made after it. </h5></li>
+                <li> <h5 tabindex="27"> The Treaty annuity that was just explained was only $3, the other Treaties had $5.</h5></li>
+                <li> <a tabindex="28" id="treaty-canada" href="https://www.rcaanc-cirnac.gc.ca/eng/1360948213124/1544620003549 " target="_blank" > canadas treaty one document </a></li>
+            </ol>
+            <h5 tabindex="29"> Currently there are many developement projects going on in indigeous Communities as their economics are still affected to this day.
+                food and clean drinking water is more pricey than junk food and soda. These communities are not getting enough healthcare and dental care. 
+                There are many more devastating stuff going on in the Indigenous Communities and Reserves that need to be addressed. Find out more at:
+            </h5>
+            <br/>
+            <a tabindex="30" href="https://treaty1.ca/t1dc/" target="_blank"> find out more at treaty one projects Canada</a>
+        </div>
+    </section>
+    <!-- this is the footer that contains contact and copywright information-->
+    <footer>
+        <div id="footer"> <h6 tabindex="31"> contact us at 204-555-5555 &nbsp; &nbsp; mantell canadian educational site &copy;</h6></div>
+    </footer>
+</body>
+</html>
